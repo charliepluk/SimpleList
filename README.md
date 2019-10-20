@@ -1,2 +1,7 @@
 # todo-list-plain-javascript-
-A Todo List programmed using plain JavaScript
+A Simple To-Do List
+
+# What was used?
+HTML5
+CSS
+JavaScript
