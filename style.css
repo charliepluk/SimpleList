@@ -1,0 +1,45 @@
+html, body {
+    padding: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#todo {
+    width: 600px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#list {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#list li {
+    font-size: 1.4em;
+    text-align: left;
+    left: 0;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#list li.checked {
+    text-decoration: line-through;
+    font-style: italic;
+    color: green;
+}
+
+.toggle {
+    vertical-align: middle;
+    outline: none;
+    cursor: pointer;
+    margin: auto 0;
+}
+
+#list li label {
+    margin-left: 1em;
+}
+
+.close {
+    float: right;
+}
