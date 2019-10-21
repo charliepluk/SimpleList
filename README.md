@@ -1,4 +1,4 @@
-# Simple To-Do
+# Simple List
 A Simple To-Do List that allows users to add, check-off and delete items
 
 # What was used?
