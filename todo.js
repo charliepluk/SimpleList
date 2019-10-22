@@ -1,3 +1,15 @@
+// Enter key listener
+var inputBox = document.getElementById("taskInput");
+inputBox.addEventListener('keyup', function(event) {
+    if (event.defaultPrevented) {
+        return false;
+    }
+    var key = event.keyCode;
+    if (key === 13) {
+        newListItem();
+    }
+})
+
 // Creating a new list item
 function newListItem() {
     if (document.getElementById("taskInput").value !== '') {
